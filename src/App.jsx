@@ -4,6 +4,7 @@ import Shop from "./components/Shop.jsx";
 import { DUMMY_PRODUCTS } from "./dummy-products.js";
 import Product from "./components/Product.jsx";
 import CartContextProvider , {CartContext} from "./store/Shopping-cart-context.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
           </li>
         ))}
       </Shop>
+
+      <Footer />
+      
     </CartContextProvider>
   );
 }
